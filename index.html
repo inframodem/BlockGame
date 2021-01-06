@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Block Game</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar-1.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar-2.css">
+    <link rel="stylesheet" href="assets/css/Dark-NavBar.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body style="background: rgb(53,53,57);border-radius: 100%;" >
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md sticky-top navigation-clean-button" style="min-height: 100px;background-color: #37434d;color: #ffffff;">
+            <div class="container-fluid"><a class="navbar-brand" href="#"><i class="fas fa-dice"></i>&nbsp;Tower Randomizer For a Childrens Block Game</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link active" style="color:#ffffff;" href="index.html">&nbsp;Home</a></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"><a class="nav-link active" style="color:#ffffff;" href="index.html">&nbsp;Tower Battles</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div><a class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="collapse-1" href="#collapse-1" role="button" style="margin: 0px;margin-top: 0px;border-radius: 0;background: rgb(90,92,94);width: 100%;border-width: 0px;">Toggle Filters</a>
+        <div class="collapse" id="collapse-1">
+            <div style="border-width: 3px;border-color: var(--gray);border-bottom-width: 3px;border-bottom-color: var(--gray);">
+                <div class="row">
+                    <div class="col"><label style="color: rgb(255,255,255);margin: 4px;">Number of Towers:&nbsp;</label><select id="numSelect" style="margin: 4px;">
+                            <option value="1" selected="">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                            <option value="4">Four</option>
+                            <option value="5">Five</option>
+                            <option value="6">Random</option>
+                        </select>
+                        <div style="margin-top: 40px;margin-left: 20px;"><button class="btn btn-primary" onclick="SaveTowers()" type="button">Save Selected Towers</button></div>
+                    </div>
+                    <div class="col d-xl-flex flex-wrap justify-content-xl-start">
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Archer</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-2" checked=""><label class="form-check-label" for="formCheck-1">Aviator</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-3" checked=""><label class="form-check-label" for="formCheck-1">Barracks</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-4" checked=""><label class="form-check-label" for="formCheck-1">Commander</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-5" checked=""><label class="form-check-label" for="formCheck-1">Commando</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-6" checked=""><label class="form-check-label" for="formCheck-1">Cryo-Gunner</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-7" checked=""><label class="form-check-label" for="formCheck-1">DJ</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-8"><label class="form-check-label" for="formCheck-1">Elf</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-9" checked=""><label class="form-check-label" for="formCheck-1">Enforcer</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-10" checked=""><label class="form-check-label" for="formCheck-1">Farm</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-11" checked=""><label class="form-check-label" for="formCheck-1">Flamethrower</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-12" checked=""><label class="form-check-label" for="formCheck-1">Fragger</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-13" checked=""><label class="form-check-label" for="formCheck-1">Golden Commando</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-14" checked=""><label class="form-check-label" for="formCheck-1">Golden Scout</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-15"><label class="form-check-label" for="formCheck-1">Graveyard</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-16"><label class="form-check-label" for="formCheck-1">Hollowboomer</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-17"><label class="form-check-label" for="formCheck-1">Huntsman</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-18"><label class="form-check-label" for="formCheck-1">Knifer</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-19" checked=""><label class="form-check-label" for="formCheck-1">Marksman</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-20" checked=""><label class="form-check-label" for="formCheck-1">Mercenary</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-21" checked=""><label class="form-check-label" for="formCheck-1">Mortar</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-22" checked=""><label class="form-check-label" for="formCheck-1">Patrol</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-23" checked=""><label class="form-check-label" for="formCheck-1">Phaser</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-24" checked=""><label class="form-check-label" for="formCheck-1">Plasma Trooper</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-25" checked=""><label class="form-check-label" for="formCheck-1">Railgunner</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-27"><label class="form-check-label" for="formCheck-1">Resting Soldier</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-28"><label class="form-check-label" for="formCheck-1">Scarecrow</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-29" checked=""><label class="form-check-label" for="formCheck-1">Scout</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-30" checked=""><label class="form-check-label" for="formCheck-1">Shotgunner</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-31"><label class="form-check-label" for="formCheck-1">Sleeter</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-26" checked=""><label class="form-check-label" for="formCheck-1">Sniper</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-32"><label class="form-check-label" for="formCheck-1">Snowballer</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-33" checked=""><label class="form-check-label" for="formCheck-1">Soldier</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-34"><label class="form-check-label" for="formCheck-1">Stunner</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-35" checked=""><label class="form-check-label" for="formCheck-1">Tuber</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-36" checked=""><label class="form-check-label" for="formCheck-1">Tweeter</label></div>
+                        <div class="form-check" style="color: rgb(255,255,255);margin: 5px;"><input class="form-check-input" type="checkbox" id="formCheck-37" checked=""><label class="form-check-label" for="formCheck-1">Zed</label></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><button class="btn btn-primary" type="button" onclick="GenerateTowers()" style="margin-top: 50px;width: 100%;background: rgb(90,92,94);height: 50px;">Generate New Towers</button>
+    <div class="d-flex d-xl-flex justify-content-center flex-wrap justify-content-xl-center align-items-xl-center" style="margin-top: 50px;margin-right: 20px;margin-left: 20px;">
+        <div class="d-flex d-xl-flex flex-column align-items-center justify-content-xl-start align-items-xl-center" style="height: 280px;width: 200px;border: 2px solid var(--gray);border-radius: 8px;background: #3d3e41;margin: 10px;"><img src="assets/img/question-mark-768x768.png" id = "image-1" style="width: 150px;height: 150px;margin-top: 30px;border-radius: 100%;margin-bottom: 20px;"><strong class="d-flex justify-content-center" id = "strong-1"style="color: rgb(255,255,255);"></strong><em id = "em-1" style="color: rgb(255,255,255);text-align: center;"></em></div>
+        <div class="d-flex d-xl-flex flex-column align-items-center justify-content-xl-start align-items-xl-center" style="height: 280px;width: 200px;border: 2px solid var(--gray);border-radius: 8px;background: #3d3e41;margin: 10px;"><img src="assets/img/question-mark-768x768.png" id = "image-2" style="width: 150px;height: 150px;margin-top: 30px;border-radius: 100%;margin-bottom: 20px;"><strong id = "strong-2" style="color: rgb(255,255,255);"></strong><em id = "em-2" style="color: rgb(255,255,255); text-align: center;"></em></div>
+        <div class="d-flex d-xl-flex flex-column align-items-center justify-content-xl-start align-items-xl-center" style="height: 280px;width: 200px;border: 2px solid var(--gray);border-radius: 8px;background: #3d3e41;margin: 10px;"><img src="assets/img/question-mark-768x768.png" id = "image-3" style="width: 150px;height: 150px;margin-top: 30px;border-radius: 100%;margin-bottom: 20px;"><strong id = "strong-3" style="color: rgb(255,255,255);"></strong><em id = "em-3"style="color: rgb(255,255,255); text-align: center;"></em></div>
+        <div class="d-flex d-xl-flex flex-column align-items-center justify-content-xl-start align-items-xl-center" style="height: 280px;width: 200px;border: 2px solid var(--gray);border-radius: 8px;background: #3d3e41;margin: 10px;"><img src="assets/img/question-mark-768x768.png" id = "image-4" style="width: 150px;height: 150px;margin-top: 30px;border-radius: 100%;margin-bottom: 20px;"><strong id = "strong-4" style="color: rgb(255,255,255);"></strong><em id = "em-4" style="color: rgb(255,255,255); text-align: center;"></em></div>
+        <div class="d-flex d-xl-flex flex-column align-items-center justify-content-xl-start align-items-xl-center" style="height: 280px;width: 200px;border: 2px solid var(--gray);border-radius: 8px;background: #3d3e41;margin: 10px;"><img src="assets/img/question-mark-768x768.png" id = "image-5" style="width: 150px;height: 150px;margin-top: 30px;border-radius: 100%;margin-bottom: 20px;"><strong id = "strong-5" style="color: rgb(255,255,255);"></strong><em id = "em-5" style="color: rgb(255,255,255); text-align: center;"></em></div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/js.cookie.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="BlockGameScripts.js"></script>
+
+</body>
+
+</html>
