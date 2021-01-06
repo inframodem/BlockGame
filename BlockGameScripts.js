@@ -23,7 +23,7 @@ function SaveTowers(){
   for(var i = 0; i < tbinfo.TowerBattles.towers.length - 1;i++){
     selectedBoxes.push(checkboxes[i].checked);
   }
-  Cookies.set('tbtowers', JSON.stringify(selectedBoxes), {sameSite: 'strict'}, {expires: 10000} );
+  Cookies.set('tbtowers', JSON.stringify(selectedBoxes), {sameSite: 'strict', expires: 10000});
 }
 
 function GenerateTowers(){
