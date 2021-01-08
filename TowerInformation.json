@@ -5,229 +5,267 @@
       "name": "",
       "image": "assets/img/question-mark-768x768.png",
       "desc": "",
-      "default-check": ""
+      "default-check": "",
+      "index": 0
       },
       {
       "name": "Archer",
       "image": "tbimages/archer.png",
       "desc": "Dex Peasant",
-      "default-check": false
+      "default-check": false,
+      "index": 1
       },
       {
       "name": "Aviator",
       "image": "tbimages/aviator.png",
-      "desc": "King of Early Game",
-      "default-check": true
+      "desc": "AEROSMITH",
+      "default-check": true,
+      "index": 2
       },
       {
       "name": "Barracks",
       "image": "tbimages/barracks.png",
       "desc": "BAD COMPANY",
-      "default-check": false
+      "default-check": false,
+      "index": 3
       },
       {
       "name": "Commander",
       "image": "tbimages/commander.png",
       "desc": "Execute Order 66",
-      "default-check": true
+      "default-check": true,
+      "index": 4
       },
       {
       "name": "Commando",
       "image": "tbimages/commando.png",
       "desc": "Mascot Boi",
-      "default-check": true
+      "default-check": true,
+      "index": 5
       },
       {
       "name": "Cryo-Gunner",
       "image": "tbimages/cryo_gunner.png",
       "desc": "Mostly Useless, Mostly...",
-      "default-check": true
+      "default-check": true,
+      "index": 6
       },
       {
       "name": "DJ",
       "image": "tbimages/dj.png",
       "desc": "You Have Bad Music Taste",
-      "default-check": true
+      "default-check": true,
+      "index": 7
       },
       {
       "name": "Elf",
       "image": "tbimages/elf.png",
       "desc": "Knife-Ear Losers",
-      "default-check": false
+      "default-check": false,
+      "index": 8
       },
       {
       "name": "Enforcer",
       "image": "tbimages/enforcer.png",
       "desc": "Gamer Time",
-      "default-check": true
+      "default-check": true,
+      "index": 9
       },
       {
       "name": "Farm",
       "image": "tbimages/farm.png",
       "desc": "\"Just One More Round Guys\"",
-      "default-check": true
+      "default-check": true,
+      "index": 10
       },
       {
       "name": "Flamethrower",
       "image": "tbimages/flamethrower.png",
       "desc": "I Fear No Man. But That Thing, It Scares Me",
-      "default-check": true
+      "default-check": true,
+      "index": 11
       },
       {
       "name": "Fragger",
       "image": "tbimages/fragger.png",
       "desc": "Should Have Played Demoknight",
-      "default-check": true
+      "default-check": true,
+      "index": 12
       },
       {
       "name": "Golden Commando",
       "image": "tbimages/golden_commando.png",
       "desc": "OnLy SiX aLlOwEd",
-      "default-check": true
+      "default-check": true,
+      "index": 13
       },
       {
       "name": "Golden Scout",
       "image": "tbimages/golden_scout.png",
       "desc": "Covering It In Gold Doesn't Make it Better",
-      "default-check": true
+      "default-check": true,
+      "index": 14
       },
       {
       "name": "Graveyard",
       "image": "tbimages/graveyard.png",
       "desc": "ENTER THE BONE ZONE",
-      "default-check": false
+      "default-check": false,
+      "index": 15
       },
       {
       "name": "Hollowboomer",
       "image": "tbimages/hollowboomer.png",
       "desc": "Mayor of Halloween Town",
-      "default-check": false
+      "default-check": false,
+      "index": 16
       },
       {
       "name": "Huntsman",
       "image": "tbimages/huntsman.png",
       "desc": "Keanu \"Big Chungus\" Reeves",
-      "default-check": false
+      "default-check": false,
+      "index": 17
       },
       {
       "name": "Knifer",
       "image": "tbimages/knifer.png",
       "desc": "I'M NOT CRAZY YOU ARE",
-      "default-check": false
+      "default-check": false,
+      "index": 18
       },
       {
       "name": "Marksman",
       "image": "tbimages/marksman.png",
       "desc": "Expensive Worse Sniper",
-      "default-check": true
+      "default-check": true,
+      "index": 19
       },
       {
       "name": "Mercenary",
       "image": "tbimages/mercenary.png",
       "desc": "From Russia With Love",
-      "default-check": true
+      "default-check": true,
+      "index": 20
       },
       {
       "name": "Mortar",
       "image": "tbimages/mortar.png",
       "desc": "BLOW UP EVERYTHING",
-      "default-check": true
+      "default-check": true,
+      "index": 21
       },
       {
       "name": "Patrol",
       "image": "tbimages/patrol.png",
       "desc": "Ha Ha Car Goes Vroom",
-      "default-check": true
+      "default-check": true,
+      "index": 22
       },
       {
       "name": "Phaser",
       "image": "tbimages/phaser.png",
       "desc": "Not as Good As Star Trek Phasers",
-      "default-check": true
+      "default-check": true,
+      "index": 23
       },
       {
       "name": "Plasma Trooper",
       "image": "tbimages/plasma_trooper.png",
       "desc": "Nikola Tesla Wannabe",
-      "default-check": true
+      "default-check": true,
+      "index": 24
       },
       {
       "name": "Railgunner",
       "image": "tbimages/railgunner.png",
       "desc": "The MACs Are Hot",
-      "default-check": true
+      "default-check": true,
+      "index": 25
       },
       {
       "name": "Resting Soldier",
       "image": "tbimages/resting_soldier.png",
       "desc": "Me One Day Before the Due Date",
-      "default-check": false
+      "default-check": false,
+      "index": 26
       },
       {
       "name": "Scarecrow",
       "image": "tbimages/scarecrow.png",
       "desc": "3Spooky5Me",
-      "default-check": false
+      "default-check": false,
+      "index": 27
       },
       {
       "name": "Scout",
       "image": "tbimages/scout.png",
       "desc": "BONK",
-      "default-check": true
+      "default-check": true,
+      "index": 28
       },
       {
       "name": "Sleeter",
       "image": "tbimages/sleeter.png",
       "desc": "2nd Best Tower",
-      "default-check": false
+      "default-check": false,
+      "index": 29
       },
       {
         "name": "Shotgunner",
         "image": "tbimages/shotgunner.png",
         "desc": "This is My BOOMSTICK",
-        "default-check": true
+        "default-check": true,
+        "index": 30
       },
       {
       "name": "Sniper",
       "image": "tbimages/sniper.png",
       "desc": "Snip'ins a Good Job Mate",
-      "default-check": true
+      "default-check": true,
+      "index": 31
       },
       {
       "name": "Snowballer",
       "image": "tbimages/snowballer.png",
       "desc": "Best Tower",
-      "default-check": false
+      "default-check": false,
+      "index": 32
       },
       {
       "name": "Soldier",
       "image": "tbimages/soldier.png",
       "desc": "Get a Hair Cut Hippy!",
-      "default-check": true
+      "default-check": true,
+      "index": 33
       },
       {
       "name": "Stunner",
       "image": "tbimages/stunner.png",
       "desc": "Don't Tase Me Bro",
-      "default-check": false
+      "default-check": false,
+      "index": 34
       },
       {
       "name": "Tuber",
       "image": "tbimages/tuber.png",
       "desc": "The Real Soldier",
-      "default-check": true
+      "default-check": true,
+      "index": 35
       },
       {
       "name": "Tweeter",
       "image": "tbimages/tweeter.png",
       "desc": "Member of the Internet Insane Asylum",
-      "default-check": true
+      "default-check": true,
+      "index": 36
       },
       {
       "name": "Zed",
       "image": "tbimages/zed.png",
       "desc": "Chicks Dig Giant Robots",
-      "default-check": true
+      "default-check": true,
+      "index": 37
       }]
   }
 }

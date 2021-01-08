@@ -36,7 +36,7 @@ function GenerateTowers(){
 
   var selectvalue = parseInt(document.getElementById("numSelect").value);
   if(selectvalue > 5){
-    selectvalue = Math.floor(Math.random() * (5 - 1) + 1);
+    selectvalue = Math.floor(Math.random() * (6 - 1) + 1);
   }
   for(var i = 1; i <= 5; i++){
     if(selectvalue > 0){
@@ -47,6 +47,8 @@ function GenerateTowers(){
       currem.innerHTML = tbinfo.TowerBattles.towers[selectedBoxes[currRandom] + 1].desc;
       var currimg = document.getElementById("image-" + i);
       currimg.src = tbinfo.TowerBattles.towers[selectedBoxes[currRandom] + 1].image;
+      console.log(currRandom +" "+ i);
+      console.log(selectedBoxes.toString());
       selectedBoxes.splice(currRandom,1);
     }
     else{
