@@ -266,6 +266,13 @@
       "desc": "Chicks Dig Giant Robots",
       "default-check": true,
       "index": 37
+      },
+      {
+      "name": "Monkey",
+      "image": "tbimages/Monkey.png",
+      "desc": "Return to Monke",
+      "default-check": false,
+      "index": 38
       }]
   }
 }
