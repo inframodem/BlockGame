@@ -283,7 +283,7 @@
       },
       {
       "name": "Anarchist",
-      "image": "tbimages/Monkey.png",
+      "image": "tbimages/anarchist.png",
       "desc": "Chronically Online",
       "default-check": true,
       "index": 40
