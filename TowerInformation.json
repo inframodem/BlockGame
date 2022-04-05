@@ -273,6 +273,21 @@
       "desc": "Return to Monke",
       "default-check": false,
       "index": 38
-      }]
+      },
+      {
+        "name": "Harpoon Hunter",
+        "image": "tbimages/harpoonhunter.png",
+        "desc": "I Am Empty Yet I Fish",
+        "default-check": false,
+        "index": 39
+      },
+      {
+      "name": "Anarchist",
+      "image": "tbimages/Monkey.png",
+      "desc": "Chronically Online",
+      "default-check": true,
+      "index": 40
+      }
+      ]
   }
 }
